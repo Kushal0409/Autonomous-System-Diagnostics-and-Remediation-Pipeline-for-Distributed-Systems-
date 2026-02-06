@@ -1,0 +1,8 @@
+{
+  "ticket_id": "INC-2024-001",
+  "priority": "P1",
+  "status": "OPEN",
+  "title": "API returning 500 errors on User Service",
+  "description": "Customer reports unable to login. Monitoring dashboard shows 500 error rate spike starting at 14:30 UTC.",
+  "reported_at": "2024-10-24T14:35:00Z"
+}

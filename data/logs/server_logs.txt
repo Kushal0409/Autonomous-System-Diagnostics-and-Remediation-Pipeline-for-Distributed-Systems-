@@ -1,0 +1,8 @@
+2024-10-24 14:28:10 [INFO] Request received: GET /api/v1/health - 200 OK
+2024-10-24 14:29:15 [INFO] Worker process started (PID 4021)
+2024-10-24 14:30:05 [WARN] Connection pool usage at 85%
+2024-10-24 14:30:45 [WARN] Connection pool usage at 95% - approaching limit
+2024-10-24 14:31:02 [ERROR] [PID 4021] Failed to acquire connection. Error: sqlalchemy.exc.TimeoutError: QueuePool limit of size 10 overflow 10 reached, connection timed out, timeout 30.
+2024-10-24 14:31:02 [ERROR] Request failed: GET /api/v1/users/login - 500 Internal Server Error
+2024-10-24 14:31:05 [ERROR] [PID 4021] Failed to acquire connection.
+2024-10-24 14:31:10 [CRITICAL] Service health check failing. Database unreachable.
