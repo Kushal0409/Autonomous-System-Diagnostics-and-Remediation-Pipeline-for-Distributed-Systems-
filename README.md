@@ -35,12 +35,12 @@ The system is built on a sequential workflow:
 git clone [https://github.com/Kushal0409/Autonomous-System-Diagnostics.git](https://github.com/Kushal0409/Autonomous-System-Diagnostics.git)
 cd Autonomous-System-Diagnostics
 
-**2 Install the dependencies
+**2. Install the dependencies**
 pip install -r requirements.txt
 
-**3. Configure Environment
+**3. Configure Environment**
 In a .env file add your Google Gemini API key:
 GEMINI_API_KEY=your_actual_api_key_here
 
-**Running the Web Interface
+**4. Running the Interface**
 python src/app.py
